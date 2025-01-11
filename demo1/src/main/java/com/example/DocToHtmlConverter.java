@@ -44,7 +44,7 @@ public class DocToHtmlConverter {
                 System.err.println("Error occurred during conversion.");
             }
         } catch (IOException | InterruptedException e) {
-            e.printStackTrace();
+            System.out.println(e);
         }
     }
 }
